@@ -5,15 +5,13 @@
 ## Nassi-Shneiderman Diagrams
 
 ### Individual Automat Behavior
-[Insert Nassi-Shneiderman diagram showing the logic for updating a single cell's state based on its neighbors' states]
 <p align="center">
-  <img src="https://github.com/kirtan517/Helmet-Detection/blob/main/Images/confusion_matrix.png" alt="Confusion Matrix" width="800">
+  <img src="https://github.com/guptaaditya746/Conway-s-Game-of-Life-Simulation/blob/main/img/Graph%20to%20represent%20the%20behavior%20of%20a%20single%20automat%20via%20Nassi-Shneiderman.png" alt="Single automata" width="800">
 </p>
 
 This diagram outlines the algorithm for determining the next state of a cell based on the Game of Life rules. It checks the current state and the number of live neighbors to decide whether the cell will be alive or dead in the next generation.
 
 ### Overall Field Calculation
-[Insert Nassi-Shneiderman diagram showing the logic for updating the entire grid of cells]
 <p align="center">
   <img src="https://github.com/guptaaditya746/Conway-s-Game-of-Life-Simulation/blob/main/img/Nassi-Shneiderman%20diagram%20for%20the%20calculation%20of%20the%20whole%20field-1.png" alt="Nassi-Shneiderman diagram showing the logic for updating the entire grid of cells" width="800">
 </p>
@@ -40,7 +38,7 @@ The class diagram illustrates the main components of the simulation and their in
 
 ### Pattern 1
 <p align="center">
-  <img src="https://github.com/kirtan517/Helmet-Detection/blob/main/Images/confusion_matrix.png" alt="Confusion Matrix" width="800">
+  <img src="https://github.com/guptaaditya746/Conway-s-Game-of-Life-Simulation/blob/main/img/pattern1_50.png" alt="patttern1_result" width="800">
 </p>
 
 
@@ -48,7 +46,7 @@ The simulation results for Pattern 1 show how the initial configuration evolves 
 
 ### Pattern 2
 <p align="center">
-  <img src="https://github.com/kirtan517/Helmet-Detection/blob/main/Images/confusion_matrix.png" alt="Confusion Matrix" width="800">
+  <img src="https://github.com/guptaaditya746/Conway-s-Game-of-Life-Simulation/blob/main/img/pattern2_50.png" alt="pattern2_50" width="800">
 </p>
 
 
@@ -56,13 +54,11 @@ The simulation results for Pattern 2 illustrate a different initial pattern and 
 
 ### Pattern 3
 <p align="center">
-  <img src="https://github.com/kirtan517/Helmet-Detection/blob/main/Images/confusion_matrix.png" alt="Confusion Matrix" width="800">
+  <img src="https://github.com/guptaaditya746/Conway-s-Game-of-Life-Simulation/blob/main/img/pattern3_50.png" alt="pattern3_50" width="800">
 </p>
 
 
 The simulation results for Pattern 3 provide insights into the complex and often unpredictable nature of the Game of Life, as the population undergoes changes and reaches different stable or oscillating states over time.
-
-By including these diagrams and simulation screenshots, your project report will provide a comprehensive overview of your implementation, showcasing your understanding of the problem and the techniques used to create the Conway's Game of Life simulation in Unity.
 
 
 ## Overview
@@ -80,6 +76,13 @@ This project is a simulation of Conway's Game of Life developed using Unity. It 
 - **Object-Oriented Programming**: Employed to structure the code effectively.
 
 ## How to Run the Simulation
+
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/GameOfLife.git
+   ```
+2. Open the project in Unity[1].
+3. Press the **Play** button to start the simulation.
+4. Use the **Space** key to update the grid and observe the evolution of cell states.
+
+To run the Conway's Game of Life simulation, you need to first clone the repository containing the project files. After cloning the repository, you can open the project in Unity, which is required to run the simulation[1]. Once the project is open in Unity, you can press the Play button to start the simulation. During the simulation, you can use the Space key to manually update the grid and observe how the cell states evolve over time.
