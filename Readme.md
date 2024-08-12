@@ -81,7 +81,7 @@ This project is a simulation of Conway's Game of Life developed using Unity. It 
    ```bash
    git clone https://github.com/yourusername/GameOfLife.git
    ```
-2. Open the project in Unity[1].
+2. Open the project in Unity.
 3. Press the **Play** button to start the simulation.
 4. Use the **Space** key to update the grid and observe the evolution of cell states.
 
