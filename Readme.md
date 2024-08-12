@@ -6,6 +6,9 @@
 
 ### Individual Automat Behavior
 [Insert Nassi-Shneiderman diagram showing the logic for updating a single cell's state based on its neighbors' states]
+<p align="center">
+  <img src="https://github.com/kirtan517/Helmet-Detection/blob/main/Images/confusion_matrix.png" alt="Confusion Matrix" width="800">
+</p>
 
 This diagram outlines the algorithm for determining the next state of a cell based on the Game of Life rules. It checks the current state and the number of live neighbors to decide whether the cell will be alive or dead in the next generation.
 
@@ -21,7 +24,10 @@ This diagram depicts the process of visualizing the cell states in the Unity gam
 
 ## Class Diagrams
 
-[Insert class diagram showing the structure and relationships between the key classes in your implementation]
+<p align="center">
+  <img src="https://github.com/guptaaditya746/Conway-s-Game-of-Life-Simulation/blob/main/img/Class%20diagrams%20for%20the%20implemented%20classes.png" alt="Class diagram" width="800">
+</p>
+
 
 The class diagram illustrates the main components of the simulation and their interactions. It includes the `Cell` class for managing individual cell states, the `GameOfLifeManager` class for handling the game logic and simulation loop, and the `GenerationDisplay` class for updating the UI with the current generation count.
 
